@@ -1,9 +1,9 @@
 package com.zsw.test.PC.confirm;
 
+import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.ConfirmListener;
-import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.ConnectionFactory;
+import com.zsw.test.utils.ChannelUtils;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
@@ -12,24 +12,15 @@ public class Producer_Confirm {
 
     public static void main(String[] args) throws IOException, TimeoutException {
 
-        //创建 ConnectionFactory
-        ConnectionFactory connectionFactory = new ConnectionFactory();
-        connectionFactory.setHost("122.51.107.145");
-        connectionFactory.setPort(5672);
-        connectionFactory.setVirtualHost("/");
-
-        //创建 Connection
-        Connection connection = connectionFactory.newConnection();
-
-        //创建 Channel
-        Channel channel = connection.createChannel();
+        Channel channel = ChannelUtils.create();
 
         //开启 confirm 确认模式
         channel.confirmSelect();
 
         for(int i=0;i<5;i++){
             String msg = "hello";
-            channel.basicPublish("confirm.exchange","confirm.news",null,msg.getBytes());
+            AMQP.BasicProperties build = new AMQP.BasicProperties().builder().deliveryMode(2).expiration("10000").build();
+            channel.basicPublish("confirm.exchange","confirm.news",build,msg.getBytes());
         }
 
         // 添加一个确认监听

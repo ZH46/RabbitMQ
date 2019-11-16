@@ -1,9 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a234d081-f4a1-4a88-a0ad-809dab02d7de" name="Default Changelist" comment="" />
+    <list default="true" id="a234d081-f4a1-4a88-a0ad-809dab02d7de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/76905.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_3_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_junit_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/convert/ImageMessageConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/convert/MyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/convert/PDFMessageConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/delegate/MyDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/entity/Packaged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/DeadLetterExchange/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/DeadLetterExchange/MyConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/DeadLetterExchange/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/utils/ChannelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/confirm/Producer_Confirm.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/confirm/Producer_Confirm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/MyConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/MyConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/Producer_Limit.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/Producer_Limit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/returning/Producer_Return.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/returning/Producer_Return.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/confirm/Producer_Confirm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/confirm/Producer_Confirm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/confirm/Producer_Confirm.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/confirm/Producer_Confirm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/limit/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/limit/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/limit/Producer_Limit.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/limit/Producer_Limit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/returning/Producer_Return$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/returning/Producer_Return$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/returning/Producer_Return.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/target/classes/com/zsw/test/PC/returning/Producer_Return.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/test/target/" />
+    <ignored path="$PROJECT_DIR$/spring/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +65,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/MyConsumer.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/config/RabbitMQConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            <state relative-caret-position="476">
+              <caret line="190" selection-start-line="190" selection-end-line="190" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/convert/MyConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/zsw/spring/ApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-918">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,6 +110,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="a5dd6932-3a2c-4b18-8185-9b980b141b69" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -47,12 +123,26 @@
         <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/Producer.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/MyConsumer.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/Producer_Confirm.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/Consumer.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/Producer_Return.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/Producer_Limit.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/DeadLetterExchange/Producer_Confirm.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/utils/Channel.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/confirm/Producer_Confirm.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/DeadLetterExchange/Producer.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/DeadLetterExchange/Consumer.java" />
+        <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/Producer_Limit.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/Consumer.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/MyConsumer.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/Consumer.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/returning/Producer_Return.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/Consumer.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/entity/Order.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/convert/ImageMessageConverter.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/convert/PDFMessageConverter.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/delegate/MyDelegate.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/convert/MyConverter.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/config/RabbitMQConfig.java" />
+        <option value="$PROJECT_DIR$/spring/src/test/java/com/zsw/spring/ApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -74,29 +164,101 @@
     <option name="width" value="704" />
     <option name="height" value="737" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="convert" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/graduation/VBlog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zsw.spring.convert" />
+      <recent name="com.zsw.spring.delegate" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zsw.test.DeadLetterExchange" />
       <recent name="com.zsw.test.PC.limit" />
       <recent name="com.zsw.test.PC" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\training\summer\rabbitmq\spring\src\main\java\com\zsw\spring" />
+      <recent name="E:\training\summer\rabbitmq\spring\src\main\java\com\zsw\spring\convert" />
+      <recent name="E:\training\summer\rabbitmq\test\src\main\java\com\zsw\test\DeadLetterExchange" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -111,68 +273,90 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Producer_Limit">
-    <configuration name="Consumer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsw.test.PC.limit.Consumer" />
-      <module name="test" />
+  <component name="RunManager" selected="JUnit.ApplicationTests.connection">
+    <configuration name="ApplicationTests.connection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsw.test.PC.limit.*" />
+          <option name="PATTERN" value="com.zsw.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zsw.spring" />
+      <option name="MAIN_CLASS_NAME" value="com.zsw.spring.ApplicationTests" />
+      <option name="METHOD_NAME" value="connection" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsw.test.PC.Consumer" />
-      <module name="test" />
+    <configuration name="ApplicationTests.sendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsw.test.PC.limit.*" />
+          <option name="PATTERN" value="com.zsw.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zsw.spring" />
+      <option name="MAIN_CLASS_NAME" value="com.zsw.spring.ApplicationTests" />
+      <option name="METHOD_NAME" value="sendMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer_Confirm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsw.test.PC.confirm.Producer_Confirm" />
-      <module name="test" />
+    <configuration name="ApplicationTests.testSendExtConverterMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsw.test.PC.limit.*" />
+          <option name="PATTERN" value="com.zsw.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zsw.spring" />
+      <option name="MAIN_CLASS_NAME" value="com.zsw.spring.ApplicationTests" />
+      <option name="METHOD_NAME" value="testSendExtConverterMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer_Limit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsw.test.PC.limit.Producer_Limit" />
-      <module name="test" />
+    <configuration name="ApplicationTests.testSendJavaMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsw.test.PC.limit.*" />
+          <option name="PATTERN" value="com.zsw.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zsw.spring" />
+      <option name="MAIN_CLASS_NAME" value="com.zsw.spring.ApplicationTests" />
+      <option name="METHOD_NAME" value="testSendJavaMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer_Return" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsw.test.PC.returning.Producer_Return" />
-      <module name="test" />
+    <configuration name="ApplicationTests.testSendJsonMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsw.test.PC.limit.*" />
+          <option name="PATTERN" value="com.zsw.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zsw.spring" />
+      <option name="MAIN_CLASS_NAME" value="com.zsw.spring.ApplicationTests" />
+      <option name="METHOD_NAME" value="testSendJsonMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zsw.spring.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,16 +370,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Consumer (1)" />
-        <item itemvalue="Application.Producer_Limit" />
-        <item itemvalue="Application.Producer_Confirm" />
-        <item itemvalue="Application.Producer_Return" />
-        <item itemvalue="Application.Consumer" />
+        <item itemvalue="JUnit.ApplicationTests.connection" />
+        <item itemvalue="JUnit.ApplicationTests.testSendJsonMessage" />
+        <item itemvalue="JUnit.ApplicationTests.sendMessage" />
+        <item itemvalue="JUnit.ApplicationTests.testSendJavaMessage" />
+        <item itemvalue="JUnit.ApplicationTests.testSendExtConverterMessage" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\76905\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -206,17 +390,70 @@
       <updated>1573476981934</updated>
       <workItem from="1573476983499" duration="3792000" />
       <workItem from="1573482685851" duration="15000" />
-      <workItem from="1573519225884" duration="6903000" />
+      <workItem from="1573519225884" duration="15563000" />
+      <workItem from="1573559849819" duration="2874000" />
+      <workItem from="1573606005519" duration="14578000" />
+      <workItem from="1573647222501" duration="713000" />
+      <workItem from="1573648005898" duration="698000" />
+      <workItem from="1573711439218" duration="1511000" />
+      <workItem from="1573778097206" duration="2755000" />
+      <workItem from="1573799811804" duration="966000" />
+      <workItem from="1573800800043" duration="15000" />
+      <workItem from="1573801936664" duration="458000" />
+      <workItem from="1573802418207" duration="397000" />
+      <workItem from="1573802936927" duration="31000" />
+      <workItem from="1573893486269" duration="2877000" />
     </task>
+    <task id="LOCAL-00001" summary="api的使用">
+      <created>1573526741994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573526741994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ApplicationTests_testSendJsonMessage - 2019.11.15 at 08h 38m 32s.xml">
+      <configuration name="ApplicationTests.testSendJsonMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_testSendJavaMessage - 2019.11.15 at 08h 39m 09s.xml">
+      <configuration name="ApplicationTests.testSendJavaMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_testSendJavaMessage - 2019.11.15 at 08h 39m 51s.xml">
+      <configuration name="ApplicationTests.testSendJavaMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_sendMessage - 2019.11.15 at 08h 45m 44s.xml">
+      <configuration name="ApplicationTests.sendMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_connection - 2019.11.15 at 09h 03m 41s.xml">
+      <configuration name="ApplicationTests.connection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_connection - 2019.11.15 at 09h 26m 23s.xml">
+      <configuration name="ApplicationTests.connection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_connection - 2019.11.15 at 09h 27m 44s.xml">
+      <configuration name="ApplicationTests.connection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_testSendJsonMessage - 2019.11.15 at 09h 27m 56s.xml">
+      <configuration name="ApplicationTests.testSendJsonMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_connection - 2019.11.16 at 17h 03m 13s.xml">
+      <configuration name="ApplicationTests.connection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_connection - 2019.11.16 at 19h 46m 50s.xml">
+      <configuration name="ApplicationTests.connection" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10710000" />
+    <option name="totallyTimeSpent" value="47243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1411" height="759" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2572062" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18625277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -224,9 +461,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32961783" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32854864" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35885167" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39872408" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -234,7 +471,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32854864" />
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -252,6 +489,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="api的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="api的使用" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/.gitignore" />
     <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC.java" />
@@ -259,6 +500,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/returning.java" />
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/DeadLetterExchange/MyConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/DeadLetterExchange/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/spring.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/DeadLetterExchange/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.1.RELEASE/spring-amqp-2.2.1.RELEASE.jar!/org/springframework/amqp/core/Queue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.1.RELEASE/spring-amqp-2.2.1.RELEASE.jar!/org/springframework/amqp/core/DirectExchange.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/utils/ChannelUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.1.RELEASE/spring-rabbit-2.2.1.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitAdmin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="561" selection-start-line="561" selection-end-line="561" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-407">
+          <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -274,37 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/returning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/returning/Producer_Return.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/confirm/Producer_Confirm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        <state relative-caret-position="529">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -313,32 +608,128 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/Producer_Limit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        <state relative-caret-position="414">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/MyConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="311">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.1.RELEASE/spring-rabbit-2.2.1.RELEASE.jar!/org/springframework/amqp/rabbit/listener/adapter/MessageListenerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/convert/PDFMessageConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/convert/ImageMessageConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/delegate/MyDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3.jar!/com/rabbitmq/client/Channel.class">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2254">
-          <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+        <state relative-caret-position="92">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/MyConsumer.java">
+    <entry file="file://$PROJECT_DIR$/test/src/test/java/com/zsw/test/TestApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="115">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/limit/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/PC/confirm/Producer_Confirm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/zsw/test/HH.java" />
+    <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/zsw/spring/ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/config/RabbitMQConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/zsw/spring/convert/MyConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
