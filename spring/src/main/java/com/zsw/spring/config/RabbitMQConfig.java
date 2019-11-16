@@ -62,11 +62,11 @@ public class RabbitMQConfig {
     }
 
     @Bean
-    public SimpleMessageListenerContainer simpleMessageListenerContainer(ConnectionFactory connectionFactory){
+    SimpleMessageListenerContainer simpleMessageListenerContainer(ConnectionFactory connectionFactory){
         SimpleMessageListenerContainer container = new SimpleMessageListenerContainer(connectionFactory);
         //设置监听的队列
         container.setQueueNames("confirm.queue","test.queue","hh.queue");
-        //设置消费者
+        //设置当前消费者数量
         container.setConcurrentConsumers(1);
         //设置最大消费者数量
         container.setMaxConcurrentConsumers(3);
@@ -74,7 +74,7 @@ public class RabbitMQConfig {
         container.setDefaultRequeueRejected(false);
         //设置消息的签收机制(Auto自动签收，Manual手动签收)
         container.setAcknowledgeMode(AcknowledgeMode.AUTO);
-        //设置消费者的delivery
+        //设置消费者的delivery(标签)
         container.setConsumerTagStrategy(new ConsumerTagStrategy() {
             @Override
             public String createConsumerTag(String s) {
@@ -83,7 +83,7 @@ public class RabbitMQConfig {
         });
 
         //设置具体的消息监听
-        /**
+        /*
          * 1、方法一
          *
          *
@@ -96,7 +96,7 @@ public class RabbitMQConfig {
         });
          */
 
-        /**
+        /*
          * 2、适配器方式
          *
          *
@@ -108,7 +108,7 @@ public class RabbitMQConfig {
         adapter.setMessageConverter(new MyConverter());
         */
 
-        /**
+        /*
          * 3、适配器方式 ：将 队列 与 方法名称 一一对应
          *
         MessageListenerAdapter adapter = new MessageListenerAdapter(new MyDelegate());
@@ -120,7 +120,7 @@ public class RabbitMQConfig {
          */
 
         // 1.1 支持json格式的转换器
-        /**
+        /*
          MessageListenerAdapter adapter = new MessageListenerAdapter(new MyDelegate());
          adapter.setDefaultListenerMethod("consumeMessage");
 
@@ -128,12 +128,10 @@ public class RabbitMQConfig {
          adapter.setMessageConverter(jackson2JsonMessageConverter);
 
          container.setMessageListener(adapter);
-         */
-
-
+        */
 
         // 1.2 支持java对象转换
-        /**
+        /*
          MessageListenerAdapter adapter = new MessageListenerAdapter(new MyDelegate());
          adapter.setDefaultListenerMethod("consumeMessage");
 
@@ -148,7 +146,7 @@ public class RabbitMQConfig {
 
 
         //1.3 支持java对象多映射转换
-        /**
+        /*
          MessageListenerAdapter adapter = new MessageListenerAdapter(new MyDelegate());
          adapter.setDefaultListenerMethod("consumeMessage");
          Jackson2JsonMessageConverter jackson2JsonMessageConverter = new Jackson2JsonMessageConverter();
@@ -163,13 +161,13 @@ public class RabbitMQConfig {
          jackson2JsonMessageConverter.setJavaTypeMapper(javaTypeMapper);
          adapter.setMessageConverter(jackson2JsonMessageConverter);
          container.setMessageListener(adapter);
-         */
+        */
 
         //1.4 ext convert
         MessageListenerAdapter adapter = new MessageListenerAdapter(new MyDelegate());
         adapter.setDefaultListenerMethod("consumeMessage");
 
-        //全局的转换器:
+        //全局的转换器
         ContentTypeDelegatingMessageConverter convert = new ContentTypeDelegatingMessageConverter();
 
         MyConverter textConvert = new MyConverter();

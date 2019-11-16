@@ -15,6 +15,10 @@ public class MyConverter implements MessageConverter {
 
     @Override
     public Object fromMessage(Message message) throws MessageConversionException {
-        return new String(message.getBody());
+        String contentType = message.getMessageProperties().getContentType();
+        if(null != contentType && contentType.contains("text")) {
+            return new String(message.getBody());
+        }
+        return message.getBody();
     }
 }
